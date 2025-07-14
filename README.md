@@ -27,7 +27,7 @@ cd C:\Path\To\Scripts
 Unblock-File -Path .\STIG-ID-WN10-00-000155.ps1
 
 # Execute the script
-.\STIG-ID-WN10-00-000155.ps1 -
+.\STIG-ID-WN10-00-000155.ps1
 ```
 ## Disclaimer
 These scripts are provided as-is. Always test them in a non-production environment before deploying to live systems. The user assumes all risk associated with running these scripts.
