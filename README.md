@@ -20,14 +20,16 @@ Each script is designed to be run individually with administrative privileges in
 To apply the remediation for STIG `WN10-00-000155`:
 
 ```powershell
-# Navigate to the script directory
-cd C:\Path\To\Scripts
+# First, open PowerShell as an Administrator.
 
-# Unblock the script if downloaded from the internet
-Unblock-File -Path .\STIG-ID-WN10-00-000155.ps1
+# Navigate to the folder where you saved the scripts.
+cd C:\Path\To\Your\Scripts
 
-# Execute the script
-.\STIG-ID-WN10-00-000155.ps1
+# If you downloaded the script from the internet, unblock it first.
+Unblock-File -Path '.\STIG-ID-WN10-00-000155.ps1'
+
+# Execute the script to apply the remediation.
+.\'STIG-ID-WN10-00-000155.ps1'
 ```
 ## Disclaimer
 These scripts are provided as-is. Always test them in a non-production environment before deploying to live systems. The user assumes all risk associated with running these scripts.
