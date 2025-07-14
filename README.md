@@ -1,0 +1,1 @@
+# Automated-DISA-STIG-Hardening-with-PowerShell-WN10-00-000155
