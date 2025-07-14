@@ -9,7 +9,7 @@ This collection includes the script for the following STIGs:
 
 | STIG ID              | Description                                                  | Script File                                                                                                                              |
 | -------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| **WN10-00-000155** | The Windows PowerShell 2.0 feature must be disabled on the system. | [`STIG-ID-WN10-AU-000500.ps1`](https://github.com/jorjuarez/PowerShell-STIG-Automation/blob/main/STIG-ID-WN10-AU-000500.ps1) **Update**|
+| **WN10-00-000155** | The Windows PowerShell 2.0 feature must be disabled on the system. | [`STIG-ID-WN10-00-000155.ps1`](https://github.com/jorjuarez/Automated-DISA-STIG-Hardening-with-PowerShell-WN10-00-000155/blob/main/STIG-ID-WN10-00-000155.ps1)|
 
 
 ## Usage
@@ -24,10 +24,10 @@ To apply the remediation for STIG `WN10-00-000155`:
 cd C:\Path\To\Scripts
 
 # Unblock the script if downloaded from the internet
-Unblock-File -Path .\STIG-ID-WN10-AU-000500.ps1 **Update**
+Unblock-File -Path .\STIG-ID-WN10-00-000155.ps1
 
 # Execute the script
-.\STIG-ID-WN10-AU-000500.ps1 - **Update**
+.\STIG-ID-WN10-00-000155.ps1 -
 ```
 ## Disclaimer
 These scripts are provided as-is. Always test them in a non-production environment before deploying to live systems. The user assumes all risk associated with running these scripts.
